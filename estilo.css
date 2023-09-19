@@ -1,0 +1,60 @@
+#infoPokemon{
+    width: 300px;
+    height: 300px;
+    border: 3px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 100vh;
+    margin: auto;
+}
+
+#PokemonID{
+    padding: 10px 50px;
+    width: 300px;
+}
+
+#PokemonID::placeholder{
+    text-align: center
+}
+
+.input-container {
+    display: flex;
+    align-items: center; 
+}
+
+#btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 15px;
+    border: none;
+    width: 80px;
+    height: 50px;
+}
+
+#btnRandom{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 15px;
+    border: none;
+    width: 150px;
+    height: 50px;
+}
+
+#btnRandom:hover, #btn:hover{
+    background-color:  rgba(255, 0, 0, 0.808);
+}
+
+
+h1{
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
